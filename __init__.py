@@ -1,1 +1,1 @@
-from .centroidtracker import CentroidTracker
+from CentroidTracker.centroidtracker import CentroidTracker
