@@ -3,6 +3,11 @@ from scipy.spatial import distance as dist
 from collections import OrderedDict
 import numpy as np
 
+
+# IDs for the object
+ID = 0
+
+
 class CentroidTracker():
 	def __init__(self, maxDisappeared=30):
 		# initialize the next unique object ID along with two ordered
